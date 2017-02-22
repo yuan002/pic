@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>焦点图轮播</title>
+	<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_classicHB.js"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			myFocus.set({
+				id:'picBox'
+			})
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_classicHB.css">
+	<style type="text/css">
+		.img{
+			width: 490px;
+			height:300px;
+			margin: 50px auto;
+			overflow: hidden;
+		}
+		ul{list-style:none; }
+	</style>
+</head>
+<body>
+<div class="img" id="picBox">
+	<div class="loading">
+		<img src="images/loading.gif" alt="图片加载中">
+	</div>
+	<div class="pic">
+		<ul>
+			<li><img src="images/1.jpg"></li>
+			<li><img src="images/2.jpg"></li>
+			<li><img src="images/3.jpg"></li>
+			<li><img src="images/4.jpg"></li>
+			<li><img src="images/5.jpg"></li>
+			<li><img src="images/6.jpg"></li>
+		</ul>
+		
+	</div>
+</div>
+</body>
+</html>
